@@ -11,6 +11,7 @@
       doom-themes-enable-italic nil)
 
 (setq-default line-spacing 0.2)
+(mac-auto-operator-composition-mode)
 
 (load-theme `zach t)
 ;; (load-theme `doom-molokai t)
