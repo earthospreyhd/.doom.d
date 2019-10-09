@@ -208,6 +208,12 @@ determine the exact padding."
    ;; org-mode
    (org-hide :foreground hidden)
    (solaire-org-hide-face :foreground hidden)
+   (org-block            )
+   (org-level-1           :weight 'bold :height 1.25)
+   (org-level-2           :weight 'bold :height 1.1)
+   (org-level-3           :bold bold :height 1.0)
+   (org-level-4           :bold bold :height 1.0)
+   (org-document-title :foreground base8 :weight 'bold :height 1.5)
    ;; javascript-mode
    (js2-object-property :foreground red)
    )
