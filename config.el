@@ -5,6 +5,7 @@
 (require 'doom-themes)
 ;; (global-visual-line-mode t)
 (setq doom-font (font-spec :family "iosevka ss04" :size 17))
+;; (setq doom-font (font-spec :family "cascadia code" :size 17))
 ;; (setq doom-font (font-spec :family "Victor Mono" :size 17 :style "medium"))
 ;; (setq doom-font (font-spec :family "monoid" :size 15 :style "retina"))
 ;; (setq doom-font (font-spec :family "iosevka ss04" :size 17))
