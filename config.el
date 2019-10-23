@@ -9,7 +9,7 @@
 (setq doom-font (font-spec :family "Liga novamono" :size 17))
 ;; (setq doom-font (font-spec :family "roboto mono for powerline" :size 17))
 ;; (setq doom-font (font-spec :family "cascadia code" :size 17))
-;; (setq doom-font (font-spec :family "Victor Mono" :size 17 :style "medium"))
+;; (setq doom-font (font-spec :family "Vicrtor Mono" :size 17 :style "medium"))
 ;; (setq doom-font (font-spec :family "monoid" :size 15 :style "retina"))
 ;; (setq doom-font (font-spec :family "iosevka ss04" :size 17))
 ;; (setq doom-font (font-spec :family "fira code" :size 16 :weight 'light))
@@ -28,3 +28,12 @@
 ;; (load-theme `zach t)
 (load-theme `zaiste t)
 ;; (load-theme `doom-molokai t)
+
+
+;; avy keybindings
+(setq avy-timeout-seconds 30)
+(map!
+      :m  "gs"    #'+evil/easymotion  ; lazy-load `evil-easymotion'
+      (:after evil-easymotion
+        :map evilem-map
+        "l" #'evil-avy-goto-line))
