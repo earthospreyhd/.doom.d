@@ -33,7 +33,7 @@
 ;; avy keybindings
 (setq avy-timeout-seconds 30)
 (map!
-      :m  "gs"    #'+evil/easymotion  ; lazy-load `evil-easymotion'
-      (:after evil-easymotion
-        :map evilem-map
-        "l" #'evil-avy-goto-line))
+ :m  "gs"    #'+evil/easymotion  ; lazy-load `evil-easymotion'
+ (:after evil-easymotion
+   :map evilem-map
+   "l" #'evil-avy-goto-line))
