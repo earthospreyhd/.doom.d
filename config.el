@@ -17,6 +17,10 @@
 (load-theme `zaiste t)
 ;; (load-theme `doom-molokai t)
 
+;; Make font a bit bigger for eshell
+(defun set-size ()
+  (text-scale-increase 1))
+(add-hook `eshell-mode-hook `set-size)
 
 ;; avy settings
 (setq avy-timeout-seconds 30)
