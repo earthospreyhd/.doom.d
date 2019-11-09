@@ -8,6 +8,7 @@
       doom-themes-enable-italic nil
       display-time-default-load-average nil
       display-time-format  "%d/%m  %I:%M%p "
+      display-line-numbers-type 'relative
       )
 (display-time-mode 1)
 (display-battery-mode 1)
@@ -19,8 +20,9 @@
 
 ;; Make font a bit bigger for eshell
 (defun set-size ()
-  (text-scale-increase 1))
+  (text-scale-set 1))
 (add-hook `eshell-mode-hook `set-size)
+(add-hook `org-mode-hook `set-size)
 
 ;; avy settings
 (setq avy-timeout-seconds 30)
