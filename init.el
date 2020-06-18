@@ -13,7 +13,8 @@
        ;;japanese
 
        :completion
-       company           ; the ultimate code completion backend
+       ;;
+       ;; company           ; the ultimate code completion backend
        ;;helm              ; the *other* search engine for love and life
        ;;ido               ; the other *other* search engine...
        ivy               ; a search engine for love and life
@@ -35,7 +36,7 @@
         +all             ; catch all popups that start with an asterix
         +defaults)       ; default popup rules
        ;;pretty-code       ; replace bits of code with pretty symbols
-       ;;tabs              ; an tab bar for Emacs
+       ;; tabs              ; an tab bar for Emacs
        ;;treemacs          ; a project drawer, like neotree but cooler
        ;;unicode           ; extended unicode support for various languages
        vc-gutter         ; vcs diff in the fringe
@@ -47,7 +48,7 @@
        (evil +everywhere); come to the dark side, we have cookies
        file-templates    ; auto-snippets for empty files
        fold              ; (nigh) universal code folding
-       (format +onsave)  ; automated prettiness
+       ;; (format +onsave)  ; automated prettiness
        ;;lispy             ; vim for lisp, for people who dont like vim
        multiple-cursors  ; editing in many places at once
        ;;objed             ; text object editing for the innocent
@@ -85,7 +86,7 @@
        magit             ; a git porcelain for Emacs
        ;;make              ; run make tasks from Emacs
        ;;pass              ; password manager for nerds
-       ;; pdf               ; pdf enhancements
+       pdf               ; pdf enhancements
        ;;prodigy           ; FIXME managing external services & code builders
        ;;rgb               ; creating color strings
        ;;terraform         ; infrastructure as code
@@ -144,7 +145,7 @@
        ;;scheme            ; a fully conniving family of lisps
        sh                ; she sells {ba,z,fi}sh shells on the C xor
        ;;solidity          ; do you need a blockchain? No.
-       ;;swift             ; who asked for emoji variables?
+       swift             ; who asked for emoji variables?
        ;;terra             ; Earth and Moon in alignment for performance.
        ;;web               ; the tubes
        ;;vala              ; GObjective-C
